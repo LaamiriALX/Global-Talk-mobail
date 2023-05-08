@@ -1,0 +1,191 @@
+body{
+    background: #F6F5F4;
+}
+header{
+    margin-bottom: 20px;
+}
+.sections{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.globale{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+.For-the-day{
+    color: #757575;
+}
+.For-all-the-time{
+    color: #757575;
+}
+.active{
+    border-bottom: #000000 2px solid;
+    color: #000000;
+}
+.frame{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.dayle-static{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+.dayle-static img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+}
+.dayle-static h2{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.dayle-static p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+.static{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 20px 0;
+}
+.words-studied{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-right: #757575 1px solid;
+    padding: 0 40px;
+    text-align: center;
+}
+.correct-answers{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 40px;
+    text-align: center;
+}
+.words-studied h2{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.words-studied h2 span{
+    color: #2B788B;
+    font-weight: 800;
+    font-size: 40px;
+}
+.correct-answers h2{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.correct-answers h2 span{
+    color: #2B788B;
+    font-weight: 800;
+    font-size: 40px;
+}
+.sprint{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img-globale{
+    width: 30%;
+}
+.detels-globale{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.head-globale{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.head-globale a{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    background: #C3DCE3;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+.h2-globale{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.paragraf-globale span{
+    text-align: justify;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.paragraf-globale{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+.Audio-Call{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.illustrated{
+    width: 90%;
+    margin: auto;
+}
+.illustrated img{
+    width: 100%;
+    margin: 30px 0;
+}

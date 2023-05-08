@@ -1,0 +1,238 @@
+.contenare{
+    background: #F6F5F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+.Your-Sprint{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 14px;
+}
+.detels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.detels img {
+    width: 80%;
+    margin: auto;
+}
+.detels div h2{
+    margin-bottom: 14px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.Sprint-p{
+    margin-bottom: 24px;
+}
+.detels div p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+.feauters{
+    display: flex;
+    gap: 23px;
+}
+.retrieved{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #2B788B  ;
+    border-radius: 100%;
+    border-top-color: #C3DCE3;
+    width: 114px;
+    height: 114px;
+}
+.p40{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #639B6D;
+    border-radius: 100%;
+    width: 114px;
+    height: 114px;
+}
+.play{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+    margin-top: 42px;
+}
+.play-again{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+.Go-to-textbook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    background: #C3DCE3;
+    border-radius: 100px;
+}
+.vocabulary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 14px;
+}
+.I-know .global{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.I-know .global a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    background: #C3DCE3;
+    border-radius: 6px;
+}
+.I-know ul{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 30px;
+}
+.I-know ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: transparent 3px solid;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    transition: 0.3s;
+}
+.I-know ul li a{
+    color: #000000;
+}
+.I-dont-know ul li span{
+    color: #757575;
+}
+.I-know ul li:hover{
+    border-right: #E0E0E0 3px solid;
+    border-radius: 2px;
+    transform: scale(1.1);
+}
+.I-know ul li img{
+    background: #F6F5F4;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+.I-know ul li a:hover .I-know ul li img{
+    background: #2B788B;
+}
+.global h2{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.I-dont-know .global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.I-dont-know .global a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #945069;
+    background: #F2D4DC;
+    border-radius: 6px;
+}
+.I-dont-know ul{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 30px;
+}
+.I-dont-know ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: transparent 3px solid;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    transition: 0.3s;
+}
+.I-dont-know ul li a{
+    color: #000000;
+}
+.I-dont-know ul li span{
+    color: #757575;
+}
+
+.I-dont-know ul li img{
+    background: #F6F5F4;
+    border-radius: 4px;
+    padding: 4px;
+}
+.I-know ul li .activ{
+    background: #2B788B;
+}
+
+.I-dont-know ul li .activ{
+    background: #2B788B;
+}

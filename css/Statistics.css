@@ -1,0 +1,63 @@
+body{
+    background: #F6F5F4;
+}
+header{
+    margin-bottom: 20px;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 20px 0;
+}
+.frame img{
+    width: 60px;
+    height: 60px;
+}
+.frame h2{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.frame p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+.Log-In{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.Sign-Up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    background: #2B788B;
+    border-radius: 100px;
+}
